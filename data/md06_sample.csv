@@ -1,0 +1,4 @@
+MRP_Message_ID,Exception_Text,Planned_Date
+EXC001,Reschedule In - past due,2024-01-15
+EXC002,Start date in the past,2024-01-12
+EXC003,Reschedule Out - not needed now,2024-01-20

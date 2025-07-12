@@ -1,0 +1,6 @@
+flow:
+  - input: "MRP exception text"
+  - step: "Classify exception using LLM"
+  - step: "Extract root cause"
+  - step: "Suggest corrective action"
+  - step: "Format alert message"

@@ -1,0 +1,5 @@
+timestamp,exception_text,user_notes
+2025-07-11 13:33:29.360211,Start date in the past,
+2025-07-11 13:39:12.390802,Reschedule In - past due,exception30
+2025-07-11 13:39:46.795185,Reschedule In - past due,50
+2025-07-11 13:40:00.307858,Reschedule In - past due,exception 50
