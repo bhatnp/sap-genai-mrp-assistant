@@ -21,20 +21,21 @@ st.markdown(f"👥 **Total Users Analyzed Exceptions**: `{click_count}`")
 
 # 📘 Instructions (HTML block)
 st.markdown("""
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
-  <h4>📄 How to Use This Assistant</h4>
-  <p>Ask your MRP question in any format — just make sure to <strong>include the exception code</strong> (like <code>10</code>, <code>15</code>, etc.).</p>
-
-  <p>💡 <strong>Examples:</strong></p>
-  <ul>
-    <li><em>Why am I seeing exception code 10 in plant 1001 for material 34567?</em></li>
-    <li><em>What does exception code 15 mean in MRP run?</em></li>
-    <li><em>Explain SAP MRP exception 30</em></li>
-  </ul>
-
-  <p>The assistant will detect the exception code and return a matching explanation from standard SAP best practices.</p>
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+    <h4>🧾 How to Use This Assistant</h4>
+    <p style="margin-bottom: 10px;">
+    Ask your MRP question in any format — just make sure to <strong>include the exception code</strong> (like <code>10</code>, <code>15</code>, <code>30</code>).
+    </p>
+    <p>💡 Examples:</p>
+    <ul>
+        <li><em>Why am I seeing exception code 10 in plant 1001 for material 34567?</em></li>
+        <li><em>What does exception code 15 mean in MRP run?</em></li>
+        <li><em>Explain SAP MRP exception 30</em></li>
+    </ul>
+    <p>The assistant will detect the exception code and return a matching explanation from standard SAP best practices.</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 # ⚠️ Disclaimer
 st.markdown("""
