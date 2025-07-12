@@ -22,50 +22,42 @@ st.markdown("""
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
     <h4>🧾 How to Use This Assistant</h4>
     <p style="margin-bottom: 10px;">
-    Type your question in any format — but make sure to <strong>include the MRP exception code</strong> (like <code>10</code>, <code>15</code>, etc.).
+    Ask your MRP question in any format — just make sure to <strong>include the exception code</strong> (like <code>10</code>, <code>15</code>, etc.).
     </p>
     <p>💡 Examples:</p>
     <ul>
         <li><em>Why am I seeing exception code 10 in plant 1001 for material 34567?</em></li>
-        <li><em>Why exception code 20?</em></li>
-        <li><em>Explain what is SAP exception code 30?</em></li>
+        <li><em>What does exception code 15 mean in MRP run?</em></li>
+        <li><em>Explain SAP MRP exception 30</em></li>
     </ul>
-    <p>This assistant will detect the code and give a smart explanation from SAP’s public best practices.</p>
+    <p>The assistant will detect the exception code and return a matching explanation from standard SAP best practices.</p>
 </div>
 """, unsafe_allow_html=True)
 
 # 🚨 Disclaimer Block
 st.markdown("""
 🔍 **Disclaimer:**  
-This assistant uses **OpenAI's ChatGPT 3.5 model**, which has not been trained on your company’s internal SAP system data.  
-That means responses do **not reflect your live material master, inventory levels, purchase orders, or plant-specific planning rules**.  
-Instead, the assistant draws from **publicly available SAP knowledge and common best practices** known to the model.
+This assistant uses a predefined set of explanations based on publicly available SAP knowledge.  
+It does **not reflect your live SAP data, material master, or planning rules**.  
+For site-specific MRP logic, consult your SAP team.
 
-📌 Stay tuned for my next blog, where I’ll explain how to **train this assistant using your company’s real SAP data** — including MRP logs, planner notes, and exception handling workflows — to generate more accurate and customized recommendations.
+📌 In the next version, we’ll show how to train this assistant using real planning logs and exceptions from your SAP system.
 """)
 
-# Load MRP exception sample data
-#df = pd.read_csv("../data/response_cache.csv", encoding="utf-8")
-#row = st.selectbox("Choose an exception to analyze", df["response"])
-
-
-
-
-# Optional long text input (to improve matching)
+# 📝 Long Text Input
 user_long_text = st.text_area("📝 Ask your MRP exception question in free text (must include exception code)")
 
-
-# Submit
+# 🔍 Submit Button
 if st.button("🔍 Explain Exception"):
     result = classify_exception(user_long_text)
     st.subheader("✅ Suggested Insight")
     st.markdown(result)
 
-    # 📊 Log user click to CSV
+    # 📊 Log user input
     log_path = Path("logs/usage_log.csv")
     log_path.parent.mkdir(exist_ok=True)
     with log_path.open("a", newline='', encoding='utf-8') as logfile:
         writer = csv.writer(logfile)
         if log_path.stat().st_size == 0:
             writer.writerow(["timestamp", "exception_text", "user_notes"])
-        writer.writerow([datetime.now(),user_long_text])
+        writer.writerow([datetime.now(), user_long_text])

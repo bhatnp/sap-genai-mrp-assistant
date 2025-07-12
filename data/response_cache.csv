@@ -1,101 +1,101 @@
-exception,notes,response
-1,2,Exception 1 – Generic planning alert. Review material master and MRP settings.
-2,3,Exception 2 – Generic planning alert. Review material master and MRP settings.
-3,4,Exception 3 – Generic planning alert. Review material master and MRP settings.
-4,5,Exception 4 – Generic planning alert. Review material master and MRP settings.
-5,1,Exception 5 – Generic planning alert. Review material master and MRP settings.
-6,2,Exception 6 – Generic planning alert. Review material master and MRP settings.
-7,3,Exception 7 – Basic Finish Date in Past: The production order's finish date is earlier than today. Review and reschedule.
-8,4,Exception 8 – Generic planning alert. Review material master and MRP settings.
-9,5,Exception 9 – Generic planning alert. Review material master and MRP settings.
-10,1,Exception 10 – Reschedule In: Order is scheduled too late to meet requirement date. Reschedule to an earlier date.
-11,2,Exception 11 – Generic planning alert. Review material master and MRP settings.
-12,3,Exception 12 – Generic planning alert. Review material master and MRP settings.
-13,4,Exception 13 – Generic planning alert. Review material master and MRP settings.
-14,5,Exception 14 – Generic planning alert. Review material master and MRP settings.
-15,1,Exception 15 – Reschedule Out: Order is too early. Delay the receipt to avoid early inventory.
-16,2,Exception 16 – Generic planning alert. Review material master and MRP settings.
-17,3,Exception 17 – Generic planning alert. Review material master and MRP settings.
-18,4,Exception 18 – Generic planning alert. Review material master and MRP settings.
-19,5,Exception 19 – Generic planning alert. Review material master and MRP settings.
-20,1,Exception 20 – Cancel Process: Demand has been deleted or reduced. Linked supply may be canceled.
-21,2,Exception 21 – Generic planning alert. Review material master and MRP settings.
-22,3,Exception 22 – Generic planning alert. Review material master and MRP settings.
-23,4,Exception 23 – Generic planning alert. Review material master and MRP settings.
-24,5,Exception 24 – Generic planning alert. Review material master and MRP settings.
-25,1,Exception 25 – Generic planning alert. Review material master and MRP settings.
-26,2,Exception 26 – Excess in Segment: Excess stock exists in project segment. Adjust planning elements.
-27,3,Exception 27 – Generic planning alert. Review material master and MRP settings.
-28,4,Exception 28 – Generic planning alert. Review material master and MRP settings.
-29,5,Exception 29 – Generic planning alert. Review material master and MRP settings.
-30,1,"Exception 30 – Plan Process: Generic planning error. Review lot sizing, planning calendar, and source of supply."
-31,2,Exception 31 – Generic planning alert. Review material master and MRP settings.
-32,3,Exception 32 – Generic planning alert. Review material master and MRP settings.
-33,4,Exception 33 – Generic planning alert. Review material master and MRP settings.
-34,5,Exception 34 – Generic planning alert. Review material master and MRP settings.
-35,1,Exception 35 – Generic planning alert. Review material master and MRP settings.
-36,2,Exception 36 – Generic planning alert. Review material master and MRP settings.
-37,3,Exception 37 – Generic planning alert. Review material master and MRP settings.
-38,4,Exception 38 – Generic planning alert. Review material master and MRP settings.
-39,5,Exception 39 – Generic planning alert. Review material master and MRP settings.
-40,1,Exception 40 – Generic planning alert. Review material master and MRP settings.
-41,2,Exception 41 – Generic planning alert. Review material master and MRP settings.
-42,3,Exception 42 – Generic planning alert. Review material master and MRP settings.
-43,4,Exception 43 – Generic planning alert. Review material master and MRP settings.
-44,5,Exception 44 – Generic planning alert. Review material master and MRP settings.
-45,1,Exception 45 – Generic planning alert. Review material master and MRP settings.
-46,2,Exception 46 – Generic planning alert. Review material master and MRP settings.
-47,3,Exception 47 – Generic planning alert. Review material master and MRP settings.
-48,4,Exception 48 – Generic planning alert. Review material master and MRP settings.
-49,5,Exception 49 – Generic planning alert. Review material master and MRP settings.
-50,1,Exception 50 – Missing Part: Component required for production is not available on the requirement date.
-51,2,Exception 51 – Generic planning alert. Review material master and MRP settings.
-52,3,Exception 52 – Generic planning alert. Review material master and MRP settings.
-53,4,Exception 53 – Generic planning alert. Review material master and MRP settings.
-54,5,Exception 54 – Generic planning alert. Review material master and MRP settings.
-55,1,Exception 55 – Generic planning alert. Review material master and MRP settings.
-56,2,Exception 56 – Generic planning alert. Review material master and MRP settings.
-57,3,Exception 57 – Generic planning alert. Review material master and MRP settings.
-58,4,Exception 58 – Generic planning alert. Review material master and MRP settings.
-59,5,Exception 59 – Generic planning alert. Review material master and MRP settings.
-60,1,Exception 60 – Generic planning alert. Review material master and MRP settings.
-61,2,Exception 61 – Generic planning alert. Review material master and MRP settings.
-62,3,Exception 62 – Generic planning alert. Review material master and MRP settings.
-63,4,Exception 63 – Generic planning alert. Review material master and MRP settings.
-64,5,Exception 64 – Generic planning alert. Review material master and MRP settings.
-65,1,Exception 65 – Generic planning alert. Review material master and MRP settings.
-66,2,Exception 66 – Generic planning alert. Review material master and MRP settings.
-67,3,Exception 67 – Generic planning alert. Review material master and MRP settings.
-68,4,Exception 68 – Generic planning alert. Review material master and MRP settings.
-69,5,Exception 69 – Generic planning alert. Review material master and MRP settings.
-70,1,Exception 70 – Coverage Not Provided: Demand cannot be covered by existing supply. Trigger procurement.
-71,2,Exception 71 – Generic planning alert. Review material master and MRP settings.
-72,3,Exception 72 – Generic planning alert. Review material master and MRP settings.
-73,4,Exception 73 – Generic planning alert. Review material master and MRP settings.
-74,5,Exception 74 – Generic planning alert. Review material master and MRP settings.
-75,1,Exception 75 – Generic planning alert. Review material master and MRP settings.
-76,2,Exception 76 – Generic planning alert. Review material master and MRP settings.
-77,3,Exception 77 – Generic planning alert. Review material master and MRP settings.
-78,4,Exception 78 – Generic planning alert. Review material master and MRP settings.
-79,5,Exception 79 – Generic planning alert. Review material master and MRP settings.
-80,1,Exception 80 – Generic planning alert. Review material master and MRP settings.
-81,2,Exception 81 – Generic planning alert. Review material master and MRP settings.
-82,3,Exception 82 – Generic planning alert. Review material master and MRP settings.
-83,4,Exception 83 – Generic planning alert. Review material master and MRP settings.
-84,5,Exception 84 – Generic planning alert. Review material master and MRP settings.
-85,1,Exception 85 – Generic planning alert. Review material master and MRP settings.
-86,2,Exception 86 – Generic planning alert. Review material master and MRP settings.
-87,3,Exception 87 – Generic planning alert. Review material master and MRP settings.
-88,4,Exception 88 – Generic planning alert. Review material master and MRP settings.
-89,5,Exception 89 – Generic planning alert. Review material master and MRP settings.
-90,1,Exception 90 – Generic planning alert. Review material master and MRP settings.
-91,2,Exception 91 – Generic planning alert. Review material master and MRP settings.
-92,3,Exception 92 – Generic planning alert. Review material master and MRP settings.
-93,4,Exception 93 – Generic planning alert. Review material master and MRP settings.
-94,5,Exception 94 – Generic planning alert. Review material master and MRP settings.
-95,1,Exception 95 – Generic planning alert. Review material master and MRP settings.
-96,2,Exception 96 – Subcontract Line Missing: Subcontracting scheduling line missing in the delivery schedule.
-97,3,Exception 97 – Generic planning alert. Review material master and MRP settings.
-98,4,Exception 98 – No BOM Selected: System could not determine a valid Bill of Materials for production.
-99,5,Exception 99 – No Routing Selected: No valid routing exists. Check task list or production version.
-100,1,Exception 100 – Generic planning alert. Review material master and MRP settings.
+code,response
+1,Exception 1 – Generic planning alert. Review material master and MRP settings.
+2,Exception 2 – Generic planning alert. Review material master and MRP settings.
+3,Exception 3 – Generic planning alert. Review material master and MRP settings.
+4,Exception 4 – Generic planning alert. Review material master and MRP settings.
+5,Exception 5 – Generic planning alert. Review material master and MRP settings.
+6,Exception 6 – Generic planning alert. Review material master and MRP settings.
+7,Exception 7 – Basic Finish Date in Past: The production order's finish date is earlier than today. Review and reschedule.
+8,Exception 8 – Generic planning alert. Review material master and MRP settings.
+9,Exception 9 – Generic planning alert. Review material master and MRP settings.
+10,Exception 10 – Reschedule In: Order is scheduled too late to meet requirement date. Reschedule to an earlier date.
+11,Exception 11 – Generic planning alert. Review material master and MRP settings.
+12,Exception 12 – Generic planning alert. Review material master and MRP settings.
+13,Exception 13 – Generic planning alert. Review material master and MRP settings.
+14,Exception 14 – Generic planning alert. Review material master and MRP settings.
+15,Exception 15 – Reschedule Out: Order is too early. Delay the receipt to avoid early inventory.
+16,Exception 16 – Generic planning alert. Review material master and MRP settings.
+17,Exception 17 – Generic planning alert. Review material master and MRP settings.
+18,Exception 18 – Generic planning alert. Review material master and MRP settings.
+19,Exception 19 – Generic planning alert. Review material master and MRP settings.
+20,Exception 20 – Cancel Process: Demand has been deleted or reduced. Linked supply may be canceled.
+21,Exception 21 – Generic planning alert. Review material master and MRP settings.
+22,Exception 22 – Generic planning alert. Review material master and MRP settings.
+23,Exception 23 – Generic planning alert. Review material master and MRP settings.
+24,Exception 24 – Generic planning alert. Review material master and MRP settings.
+25,Exception 25 – Generic planning alert. Review material master and MRP settings.
+26,Exception 26 – Excess in Segment: Excess stock exists in project segment. Adjust planning elements.
+27,Exception 27 – Generic planning alert. Review material master and MRP settings.
+28,Exception 28 – Generic planning alert. Review material master and MRP settings.
+29,Exception 29 – Generic planning alert. Review material master and MRP settings.
+30,"Exception 30 – Plan Process: Generic planning error. Review lot sizing, planning calendar, and source of supply."
+31,Exception 31 – Generic planning alert. Review material master and MRP settings.
+32,Exception 32 – Generic planning alert. Review material master and MRP settings.
+33,Exception 33 – Generic planning alert. Review material master and MRP settings.
+34,Exception 34 – Generic planning alert. Review material master and MRP settings.
+35,Exception 35 – Generic planning alert. Review material master and MRP settings.
+36,Exception 36 – Generic planning alert. Review material master and MRP settings.
+37,Exception 37 – Generic planning alert. Review material master and MRP settings.
+38,Exception 38 – Generic planning alert. Review material master and MRP settings.
+39,Exception 39 – Generic planning alert. Review material master and MRP settings.
+40,Exception 40 – Generic planning alert. Review material master and MRP settings.
+41,Exception 41 – Generic planning alert. Review material master and MRP settings.
+42,Exception 42 – Generic planning alert. Review material master and MRP settings.
+43,Exception 43 – Generic planning alert. Review material master and MRP settings.
+44,Exception 44 – Generic planning alert. Review material master and MRP settings.
+45,Exception 45 – Generic planning alert. Review material master and MRP settings.
+46,Exception 46 – Generic planning alert. Review material master and MRP settings.
+47,Exception 47 – Generic planning alert. Review material master and MRP settings.
+48,Exception 48 – Generic planning alert. Review material master and MRP settings.
+49,Exception 49 – Generic planning alert. Review material master and MRP settings.
+50,Exception 50 – Missing Part: Component required for production is not available on the requirement date.
+51,Exception 51 – Generic planning alert. Review material master and MRP settings.
+52,Exception 52 – Generic planning alert. Review material master and MRP settings.
+53,Exception 53 – Generic planning alert. Review material master and MRP settings.
+54,Exception 54 – Generic planning alert. Review material master and MRP settings.
+55,Exception 55 – Generic planning alert. Review material master and MRP settings.
+56,Exception 56 – Generic planning alert. Review material master and MRP settings.
+57,Exception 57 – Generic planning alert. Review material master and MRP settings.
+58,Exception 58 – Generic planning alert. Review material master and MRP settings.
+59,Exception 59 – Generic planning alert. Review material master and MRP settings.
+60,Exception 60 – Generic planning alert. Review material master and MRP settings.
+61,Exception 61 – Generic planning alert. Review material master and MRP settings.
+62,Exception 62 – Generic planning alert. Review material master and MRP settings.
+63,Exception 63 – Generic planning alert. Review material master and MRP settings.
+64,Exception 64 – Generic planning alert. Review material master and MRP settings.
+65,Exception 65 – Generic planning alert. Review material master and MRP settings.
+66,Exception 66 – Generic planning alert. Review material master and MRP settings.
+67,Exception 67 – Generic planning alert. Review material master and MRP settings.
+68,Exception 68 – Generic planning alert. Review material master and MRP settings.
+69,Exception 69 – Generic planning alert. Review material master and MRP settings.
+70,Exception 70 – Coverage Not Provided: Demand cannot be covered by existing supply. Trigger procurement.
+71,Exception 71 – Generic planning alert. Review material master and MRP settings.
+72,Exception 72 – Generic planning alert. Review material master and MRP settings.
+73,Exception 73 – Generic planning alert. Review material master and MRP settings.
+74,Exception 74 – Generic planning alert. Review material master and MRP settings.
+75,Exception 75 – Generic planning alert. Review material master and MRP settings.
+76,Exception 76 – Generic planning alert. Review material master and MRP settings.
+77,Exception 77 – Generic planning alert. Review material master and MRP settings.
+78,Exception 78 – Generic planning alert. Review material master and MRP settings.
+79,Exception 79 – Generic planning alert. Review material master and MRP settings.
+80,Exception 80 – Generic planning alert. Review material master and MRP settings.
+81,Exception 81 – Generic planning alert. Review material master and MRP settings.
+82,Exception 82 – Generic planning alert. Review material master and MRP settings.
+83,Exception 83 – Generic planning alert. Review material master and MRP settings.
+84,Exception 84 – Generic planning alert. Review material master and MRP settings.
+85,Exception 85 – Generic planning alert. Review material master and MRP settings.
+86,Exception 86 – Generic planning alert. Review material master and MRP settings.
+87,Exception 87 – Generic planning alert. Review material master and MRP settings.
+88,Exception 88 – Generic planning alert. Review material master and MRP settings.
+89,Exception 89 – Generic planning alert. Review material master and MRP settings.
+90,Exception 90 – Generic planning alert. Review material master and MRP settings.
+91,Exception 91 – Generic planning alert. Review material master and MRP settings.
+92,Exception 92 – Generic planning alert. Review material master and MRP settings.
+93,Exception 93 – Generic planning alert. Review material master and MRP settings.
+94,Exception 94 – Generic planning alert. Review material master and MRP settings.
+95,Exception 95 – Generic planning alert. Review material master and MRP settings.
+96,Exception 96 – Subcontract Line Missing: Subcontracting scheduling line missing in the delivery schedule.
+97,Exception 97 – Generic planning alert. Review material master and MRP settings.
+98,Exception 98 – No BOM Selected: System could not determine a valid Bill of Materials for production.
+99,Exception 99 – No Routing Selected: No valid routing exists. Check task list or production version.
+100,Exception 100 – Generic planning alert. Review material master and MRP settings.
