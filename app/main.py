@@ -24,7 +24,7 @@ st.markdown("""
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
     <h4>🧾 How to Use This Assistant</h4>
     <p style="margin-bottom: 10px;">
-    Ask your MRP question in any format — just make sure to <strong>include the exception code</strong> (like <code>10</code>, <code>15</code>, <code>30</code>).
+    Ask your MRP question in any format — just make sure to <strong>include the exception code</strong>.
     </p>
     <p>💡 Examples:</p>
     <ul>
